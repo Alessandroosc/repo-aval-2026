@@ -17,7 +17,7 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 **Nome da equipe:**
 
 | Nome | Usuário do GitHub |
-| ---- | ----------------- |
+| Alexandre Souza Schroder | https://github.com/Aleqk1231 |
 
 ## Sumário
 
