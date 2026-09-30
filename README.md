@@ -14,10 +14,11 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 > Preenchida pela equipe na [TAREFA-01](TAREFAS.md#tarefa-01--integrantes-da-equipe).
 
-**Nome da equipe:**
+**Souza's Developers:**
 
-| Nome | Usuário do GitHub |
-| ---- | ----------------- |
+|         Nome             | Usuário do GitHub |
+| Alessandro Carvalho      |   Alessandroosc   |
+| Alexandre Souza Schroder | https://github.com/Aleqk1231 |
 
 ## Sumário
 
