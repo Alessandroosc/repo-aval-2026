@@ -16,9 +16,9 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 
 **Souza's Developers:**
 
-|         Nome        | Usuário do GitHub |
-| Alessandro Carvalho |   Alessandroosc   |
-| ------------------- | ----------------- |
+|         Nome             | Usuário do GitHub |
+| Alessandro Carvalho      |   Alessandroosc   |
+| Alexandre Souza Schroder | https://github.com/Aleqk1231 |
 
 ## Sumário
 
