@@ -17,8 +17,10 @@ Conventional Commits, merges, resolução de conflitos, versionamento e Pull Req
 **Souza's Developers:**
 
 |         Nome             | Usuário do GitHub |
+| ------------------------ | ----------------- |
 | Alessandro Carvalho      |   Alessandroosc   |
 | Alexandre Souza Schroder | https://github.com/Aleqk1231 |
+| Gustavo Souza Schroder   | [Gapxz](https://github.com/Gapxz) |
 
 ## Sumário
 
@@ -55,7 +57,7 @@ npm start -- 6 8 9
 ```
 
 ```
-Média: 7.666666666666667
+Média: 7,7
 Situação: Aprovado
 ```
 

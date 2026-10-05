@@ -33,6 +33,16 @@ export function calcularMedia(notas) {
 }
 
 /**
+ * Formata a média com uma casa decimal e vírgula como separador.
+ *
+ * @param {number} media
+ * @returns {string}
+ */
+export function formatarMedia(media) {
+  return media.toFixed(1).replace('.', ',');
+}
+
+/**
  * Retorna a situação do aluno de acordo com a média.
  *
  * @param {number} media
@@ -43,7 +53,7 @@ export function obterSituacao(media) {
     return 'Aprovado com distinção';
   }
 
-  if (media > MEDIA_APROVACAO) {
+  if (media >= MEDIA_APROVACAO) {
     return 'Aprovado';
   }
 
