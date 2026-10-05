@@ -53,7 +53,7 @@ export function obterSituacao(media) {
     return 'Aprovado com distinção';
   }
 
-  if (media > MEDIA_APROVACAO) {
+  if (media >= MEDIA_APROVACAO) {
     return 'Aprovado';
   }
 
