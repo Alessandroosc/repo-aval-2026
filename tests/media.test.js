@@ -18,6 +18,34 @@ describe('calcularMedia', () => {
   test('lança erro quando nenhuma nota é informada', () => {
     assert.throws(() => calcularMedia([]), /Informe ao menos uma nota/);
   });
+
+  test('lança erro quando uma nota é negativa', () => {
+    assert.throws(() => calcularMedia([8, -1]), /Nota inválida: -1/);
+  });
+
+  test('lança erro quando uma nota é maior que 10', () => {
+    assert.throws(() => calcularMedia([8, 11]), /Nota inválida: 11/);
+  });
+
+  test('lança erro quando uma nota é NaN', () => {
+    assert.throws(() => calcularMedia([8, NaN]), /Nota inválida: NaN/);
+  });
+
+  test('lança erro quando uma nota é texto', () => {
+    assert.throws(() => calcularMedia([8, '8']), /Nota inválida: 8/);
+  });
+
+  test('aceita a nota mínima 0', () => {
+    assert.equal(calcularMedia([0]), 0);
+  });
+
+  test('aceita a nota máxima 10', () => {
+    assert.equal(calcularMedia([10]), 10);
+  });
+
+  test('calcula a média com as duas notas limite', () => {
+    assert.equal(calcularMedia([0, 10]), 5);
+  });
 });
 
 describe('formatarMedia', () => {
